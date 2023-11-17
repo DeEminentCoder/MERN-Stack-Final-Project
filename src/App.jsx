@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function App() {
+const App = () => {
   return (
-    <div className='text-red-500'>App</div>
+    <div>App</div>
   )
 }
+
+export default App
