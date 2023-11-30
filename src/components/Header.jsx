@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-orange-200 shadow-md">
+    <header className="bg--200 shadow-md">
       <div className=" flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
           <img src="Smion-Logo.png" alt="Smion-Logo" width={150} />
         </Link>
 
         <form
-          className="bg-slate-100 p-3 rounded-lg flex items-center"
+          className="bg-orange-100 p-3 rounded-lg flex items-center"
           action=""
         >
           <input
             type="text"
             placeholder="Search..."
-            className="bg-transparent focus:outline-none w-24 sm:w-64 text-red-600"
+            className="bg-transparent focus:outline-none w-24 sm:w-64 text-gray-600"
           />
           <FaSearch className="text-orange-600" />
         </form>
