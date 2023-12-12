@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg--200 shadow-md">
+    <header className="bg-gray-400 shadow-md">
       <div className=" flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
           <img src="Smion-Logo.png" alt="Smion-Logo" width={150} />
