@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-gray-400 shadow-md">
+    <header className="bg-white shadow-md">
       <div className=" flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
-          <img src="Smion-Logo.png" alt="Smion-Logo" width={150} />
+          <img src="smion-logo.png" alt="Smion-Logo" width={150} />
         </Link>
 
         <form
-          className="bg-orange-100 p-3 rounded-lg flex items-center"
+          className="bg-orange-50 p-3 rounded-lg flex items-center"
           action=""
         >
           <input
@@ -19,22 +19,22 @@ const Header = () => {
             placeholder="Search..."
             className="bg-transparent focus:outline-none w-24 sm:w-64 text-gray-600"
           />
-          <FaSearch className="text-orange-600" />
+          <FaSearch className="text-orange-500" />
         </form>
 
         <ul className="flex gap-4">
           <Link to="/">
-            <li className="hidden sm:inline text-orange-700 hover:underline">
+            <li className="hidden sm:inline text-orange-600 hover:underline">
               Home
             </li>
           </Link>
           <Link to="/about">
-            <li className="hidden sm:inline text-orange-700 hover:underline">
+            <li className="hidden sm:inline text-slate-600 hover:underline">
               About
             </li>
           </Link>
           <Link to="/signin">
-            <li className="text-orange-700 hover:underline">Sign In</li>
+            <li className="text-slate-600 hover:underline">Sign In</li>
           </Link>
         </ul>
       </div>
