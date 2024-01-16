@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-white shadow-md">
       <div className=" flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
-          <img src="smion-logo.png" alt="Smion-Logo" width={150} />
+          <img src="logo.png" alt="logo" width={150} />
         </Link>
 
         <form
