@@ -4,12 +4,12 @@ import {
   getStorage,
   ref,
   uploadBytesResumable,
-} from 'firebase/storage';
+} from '@firebase/storage';
 import { app } from '../firebase';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-export default function CreateListing() {
+const CreateListing = () => {
   const { currentUser } = useSelector((state) => state.user);
   const navigate = useNavigate();
   const [files, setFiles] = useState([]);
@@ -369,3 +369,5 @@ export default function CreateListing() {
     </main>
   );
 }
+
+export default CreateListing
